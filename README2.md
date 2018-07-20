@@ -1,11 +1,11 @@
-# Hyde
+# Hyde ![what-why](https://cs.adelaide.edu.au/~christoph/badges/content-what-why-brightgreen.svg)
 
 Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
 
 ![Hyde screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)
 
 
-## Contents
+## Contents ![how](https://cs.adelaide.edu.au/~christoph/badges/content-how-green.svg)
 
 - [Usage](#usage)
 - [Options](#options)
@@ -18,17 +18,17 @@ Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a pro
 - [License](#license)
 
 
-## Usage
+## Usage ![how](https://cs.adelaide.edu.au/~christoph/badges/content-how-green.svg)
 
 Hyde is a theme built on top of [Poole](https://github.com/poole/poole), which provides a fully furnished Jekyll setup—just download and start the Jekyll server. See [the Poole usage guidelines](https://github.com/poole/poole#usage) for how to install and use Jekyll.
 
 
-## Options
+## Options ![how](https://cs.adelaide.edu.au/~christoph/badges/content-how-green.svg)
 
 Hyde includes some customizable options, typically applied via classes on the `<body>` element.
 
 
-### Sidebar menu
+### Sidebar menu ![how](https://cs.adelaide.edu.au/~christoph/badges/content-how-green.svg)
 
 Create a list of nav links in the sidebar by assigning each Jekyll page the correct layout in the page's [front-matter](http://jekyllrb.com/docs/frontmatter/).
 
@@ -42,7 +42,7 @@ title: About
 **Why require a specific layout?** Jekyll will return *all* pages, including the `atom.xml`, and with an alphabetical sort order. To ensure the first link is *Home*, we exclude the `index.html` page from this list by specifying the `page` layout.
 
 
-### Sticky sidebar content
+### Sticky sidebar content ![how](https://cs.adelaide.edu.au/~christoph/badges/content-how-green.svg)
 
 By default Hyde ships with a sidebar that affixes it's content to the bottom of the sidebar. You can optionally disable this by removing the `.sidebar-sticky` class from the sidebar's `.container`. Sidebar content will then normally flow from top to bottom.
 
@@ -63,7 +63,7 @@ By default Hyde ships with a sidebar that affixes it's content to the bottom of 
 ```
 
 
-### Themes
+### Themes ![how](https://cs.adelaide.edu.au/~christoph/badges/content-how-green.svg)
 
 Hyde ships with eight optional themes based on the [base16 color scheme](https://github.com/chriskempson/base16). Apply a theme to change the color scheme (mostly applies to sidebar and links).
 
@@ -83,7 +83,7 @@ To use a theme, add anyone of the available theme classes to the `<body>` elemen
 
 To create your own theme, look to the Themes section of [included CSS file](https://github.com/poole/hyde/blob/master/public/css/hyde.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
 
-### Reverse layout
+### Reverse layout ![how](https://cs.adelaide.edu.au/~christoph/badges/content-how-green.svg)
 
 ![Hyde with reverse layout](https://f.cloud.github.com/assets/98681/1831230/42b0d3ac-7384-11e3-8d54-2065afd03f9e.png)
 
@@ -96,7 +96,7 @@ Hyde's page orientation can be reversed with a single class.
 ```
 
 
-## Development
+## Development ![how](https://cs.adelaide.edu.au/~christoph/badges/content-how-green.svg)
 
 Hyde has two branches, but only one is used for active development.
 
@@ -104,14 +104,14 @@ Hyde has two branches, but only one is used for active development.
 - `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
 
 
-## Author
+## Author ![who](https://cs.adelaide.edu.au/~christoph/badges/content-who-yellow.svg)
 
 **Mark Otto**
 - <https://github.com/mdo>
 - <https://twitter.com/mdo>
 
 
-## License
+## License ![who](https://cs.adelaide.edu.au/~christoph/badges/content-who-yellow.svg)
 
 Open sourced under the [MIT license](LICENSE.md).
 
